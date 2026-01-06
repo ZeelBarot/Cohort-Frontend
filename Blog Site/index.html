@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogStation - Your Modern Blog Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">BlogStation</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <h1>Welcome to BlogStation</h1>
+            <p>Explore insightful articles, learn new technologies, and join a community of passionate developers and content creators.</p>
+            <button class="cta-button">Explore Now</button>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Zeel Barot - Full Stack Developer</h3>
+                    <p>Welcome! I'm a passionate web developer with a love for creating beautiful, responsive, and user-friendly applications. With expertise in modern web technologies, I transform ideas into digital experiences.</p>
+                    <p>My journey in tech started with a simple curiosity about how websites work, and it has evolved into a full-fledged passion for building scalable, efficient solutions.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Web Design</span>
+                        <span class="skill-tag">Responsive</span>
+                    </div>
+                </div>
+                <img src="birds.avif" alt="Profile" class="about-image">
+            </div>
+        </section>
+
+        <!-- Blog Posts Section -->
+        <section id="blog">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <!-- Blog Card 1 -->
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="HTML5 Coding" class="blog-card-image">
+                    <div class="blog-card-header">
+                        <h3>Getting Started with HTML5</h3>
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-date">December 5, 2025</span>
+                        <p>Learn the fundamentals of HTML5 and discover the new semantic elements that make your markup more meaningful and accessible. Perfect for beginners looking to strengthen their foundation.</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog Card 2 -->
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=400&h=250&fit=crop" alt="CSS Grid Layout" class="blog-card-image">
+                    <div class="blog-card-header">
+                        <h3>CSS Grid Mastery</h3>
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-date">December 3, 2025</span>
+                        <p>Master CSS Grid and create complex, responsive layouts with ease. This comprehensive guide covers Grid properties, alignment, and practical examples you can use in your projects today.</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout" target="_blank" rel="noopener" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="JavaScript Programming" class="blog-card-image">
+                    <div class="blog-card-header">
+                        <h3>JavaScript Async/Await</h3>
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-date">November 28, 2025</span>
+                        <p>Understand asynchronous programming with async/await syntax. Learn how to write cleaner, more readable code that handles promises elegantly and manages errors effectively.</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises" target="_blank" rel="noopener" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog Card 4 -->
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=400&h=250&fit=crop" alt="React Development" class="blog-card-image">
+                    <div class="blog-card-header">
+                        <h3>React Hooks Deep Dive</h3>
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-date">November 22, 2025</span>
+                        <p>Explore React Hooks and revolutionize how you write functional components. Discover useState, useEffect, useContext, and custom hooks to build more powerful applications.</p>
+                        <a href="https://react.dev/reference/react/hooks" target="_blank" rel="noopener" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog Card 5 -->
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="Responsive Design" class="blog-card-image">
+                    <div class="blog-card-header">
+                        <h3>Responsive Web Design Tips</h3>
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-date">November 15, 2025</span>
+                        <p>Create websites that look stunning on all devices. Learn mobile-first design principles, media queries, flexible layouts, and best practices for modern responsive design.</p>
+                        <a href="https://web.dev/responsive-web-design-basics/" target="_blank" rel="noopener" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog Card 6 -->
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f70a504f9?w=400&h=250&fit=crop" alt="Web Performance" class="blog-card-image">
+                    <div class="blog-card-header">
+                        <h3>Web Performance Optimization</h3>
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-date">November 10, 2025</span>
+                        <p>Boost your website's performance and improve user experience. Discover techniques for image optimization, code splitting, lazy loading, and caching strategies.</p>
+                        <a href="https://web.dev/performance/" target="_blank" rel="noopener" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2>Get In Touch</h2>
+            <p style="text-align: center; margin-bottom: 1rem;">Have questions or want to collaborate? Send me a message and I'll get back to you as soon as possible!</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BlogStation. All rights reserved.</p>
+        <p>Created with  by Zeel Barot | Building amazing web experiences</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+        </div>
+    </footer>
+</body>
+</html>
